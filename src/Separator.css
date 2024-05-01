@@ -1,0 +1,31 @@
+.circle-separator{
+    position: relative;
+    margin: 2rem 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    width: 100%;
+}
+
+.circle-separator::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(142, 53, 214);
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border-radius: 50%;
+
+}
+.arrow{
+    z-index: 10000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}

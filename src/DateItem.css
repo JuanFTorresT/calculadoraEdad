@@ -1,0 +1,12 @@
+.item-text{
+    text-align: start;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+}
+
+span{
+    color: rgb(142, 53, 214);
+}
